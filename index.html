@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krunker Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #0D1117; /* Krunker background color */
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .home-container {
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #2E3338; /* Krunker accent color */
+            color: #fff;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #1B1D1F; /* Darker Krunker accent color */
+        }
+    </style>
+</head>
+<body>
+    <div class="home-container">
+        <h1>   Welcome !</h1>
+        
+        <div class="button-container">
+            <button onclick="location.href='login_krunker.html'">Login</button>
+            <button onclick="location.href='register_krunker.html'">Register</button>
+        </div>
+    </div>
+</body>
+</html>
